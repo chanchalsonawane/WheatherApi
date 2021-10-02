@@ -1,0 +1,45 @@
+{
+	"id": "2bd0c3ad-9ec9-1ab7-aaa2-87b2ed607d63",
+	"name": "WheatherApi",
+	"description": "",
+	"order": [
+		"242b3547-16bc-7305-7370-9945e5399ac7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1633166296512,
+	"owner": "2077648",
+	"public": false,
+	"requests": [
+		{
+			"id": "242b3547-16bc-7305-7370-9945e5399ac7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/WheatherApi/wheatherapi?zipcode=10001",
+			"queryParams": [
+				{
+					"key": "zipcode",
+					"value": "10001",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1633176033444,
+			"name": "GetTomorrowsWheatherReport",
+			"description": "",
+			"collectionId": "2bd0c3ad-9ec9-1ab7-aaa2-87b2ed607d63",
+			"responses": []
+		}
+	]
+}
